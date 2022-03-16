@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
+        <element label="Requested for" max_length="80" name="u_field_name_1" type="field_name"/>
+        <element attributes="encode_utf8=false" label="When needed" max_length="32" name="u_reference_2" reference="cmdb_ci_appl_dot_net" type="reference"/>
+        <element attributes="encode_utf8=false" label="What needed" max_length="32" name="u_reference_3" reference="cmdb_ci_appl_dot_net" type="reference"/>
+        <element attributes="encode_utf8=false" label="Request type" max_length="32" name="u_reference_4" reference="cmdb_ci_appl_dot_net" type="reference"/>
+    </element>
+</database>
